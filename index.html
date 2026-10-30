@@ -1,0 +1,835 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Niflow | Integração de sistemas com IA via MCP</title>
+<meta name="description" content="Conecte ERP, CRM e APIs da sua empresa ao ChatGPT, Claude e agentes de IA via MCP, com governança, auditoria e engenheiro dedicado. Diagnóstico gratuito.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://niflow.com.br/">
+<link rel="alternate" hreflang="pt-BR" href="https://niflow.com.br/">
+<link rel="alternate" hreflang="en" href="https://niflow.com.br/en/">
+<link rel="alternate" hreflang="es" href="https://niflow.com.br/es/">
+<link rel="alternate" hreflang="x-default" href="https://niflow.com.br/">
+<meta name="theme-color" content="#0F172A">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:site_name" content="Niflow">
+<meta property="og:url" content="https://niflow.com.br/">
+<meta property="og:title" content="Seus sistemas conversando com a IA. Sem trocar de sistema.">
+<meta property="og:description" content="Conecte ERP, CRM e APIs da sua empresa ao ChatGPT, Claude e agentes de IA via MCP, com governança, auditoria e engenheiro dedicado. Diagnóstico gratuito.">
+<meta property="og:image" content="https://niflow.com.br/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Niflow: integração de sistemas com IA via MCP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Seus sistemas conversando com a IA. Sem trocar de sistema.">
+<meta name="twitter:description" content="Conecte ERP, CRM e APIs da sua empresa ao ChatGPT, Claude e agentes de IA via MCP, com governança, auditoria e engenheiro dedicado. Diagnóstico gratuito.">
+<meta name="twitter:image" content="https://niflow.com.br/og-image.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&amp;family=Geist+Mono:wght@500&amp;display=swap">
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://niflow.com.br/#org",
+   "name": "Niflow",
+   "url": "https://niflow.com.br/",
+   "logo": "https://niflow.com.br/favicon.svg",
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+55-48-99131-0699",
+    "contactType": "sales",
+    "areaServed": "BR",
+    "availableLanguage": [
+     "pt-BR",
+     "en",
+     "es"
+    ]
+   }
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://niflow.com.br/#site",
+   "url": "https://niflow.com.br/",
+   "name": "Niflow",
+   "inLanguage": "pt-BR",
+   "publisher": {
+    "@id": "https://niflow.com.br/#org"
+   }
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://niflow.com.br/#servico",
+   "name": "Niflow",
+   "url": "https://niflow.com.br/",
+   "telephone": "+55-48-99131-0699",
+   "areaServed": {
+    "@type": "Country",
+    "name": "Brasil"
+   },
+   "description": "Conecte ERP, CRM e APIs da sua empresa ao ChatGPT, Claude e agentes de IA via MCP, com governança, auditoria e engenheiro dedicado. Diagnóstico gratuito.",
+   "parentOrganization": {
+    "@id": "https://niflow.com.br/#org"
+   },
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Serviços Niflow",
+    "itemListElement": [
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Integração de sistemas com IA via MCP",
+       "description": "Conexão de ERP, CRM e APIs a ChatGPT, Claude e agentes de IA, com autenticação, permissões e auditoria."
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Interface Niflow white label",
+       "description": "Interface de conversa para operar sistemas, com formulários e gráficos sob demanda e a marca do cliente."
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Organização de apps feitos com vibe coding",
+       "description": "Revisão de segurança, estrutura, deploy e documentação de aplicativos criados com IA."
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Diagnóstico gratuito",
+       "description": "Conversa para avaliar sistemas e definir o caminho de conexão com IA."
+      },
+      "price": "0",
+      "priceCurrency": "BRL"
+     }
+    ]
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://niflow.com.br/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Como funciona\nInterface Niflow\nModelo FDE\nPara quem\nSem sistema?\nModelo\nDúvidas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntegração de sistemas com IA via MCP\nSeus sistemas conversando com a IA. Sem trocar de sistema.\nA Niflow conecta o ERP, o CRM e as APIs que sua empresa já usa ao ChatGPT, ao Claude e aos seus agentes de IA, com controle de acesso, auditoria e um engenheiro dedicado junto do seu time.\n\nAgendar diagnóstico gratuito →\nVer como funciona\n\n\n\n\n\nSeus sistemas\n\nERP\nCRM\nAPI própria\n\n\n\n\n\n\n\nCamada MCP Niflow\nauditando\n\n\nAutenticação\nPermissões por ferramenta\nLogs de auditoria\nMonitoramento\n\n\n\n\n\n\nOnde sua equipe trabalha\n\nChatGPT\nClaude\nSeus agentes\nInterface Niflow · com a sua marca\n\n\n\n\n\n\n\nConecta com o que você já usa\n\n\n\nERP\nCRM\nPlanilhas\nAPIs REST\nOpenAPI\nPostgreSQL\nSupabase\nApps no Lovable\nApps no Bolt\nChatGPT\nClaude\nAgentes de IA\n\n\nERP\nCRM\nPlanilhas\nAPIs REST\nOpenAPI\nPostgreSQL\nSupabase\nApps no Lovable\nApps no Bolt\nChatGPT\nClaude\nAgentes de IA\n\n\n\n\n\n\n\n\n01 · O problema\nTodo mundo quer usar IA com os dados da empresa. Quase ninguém consegue ligar os fios.\n\n\n\n\nAPIs sem padrão\nSistema legado, documentação incompleta, cada fornecedor com um jeito diferente de expor os dados.\n\n\n\nAutenticação de todo tipo\nUsuário e senha, token, client credentials. Ninguém quer espalhar credencial em prompt ou planilha.\n\n\n\nRisco com dados e LGPD\nDar acesso amplo à IA sem saber quem consultou o quê é o tipo de coisa que tira o sono do jurídico.\n\n\n\n\n\n\n\n\n\n02 · Como funciona\nDo diagnóstico à operação, com a gente do seu lado.\n\n\n\n01\nDiagnóstico\nMapeamos seus sistemas, as perguntas que o time quer fazer à IA e o que pode ou não ser exposto.\n\n\n02\nConexão\nDescobrimos os endpoints das suas APIs e transformamos em ferramentas MCP curadas, com nomes e descrições que a IA entende.\n\n\n03\nGovernança\nCredenciais centralizadas, permissão por ferramenta e registro de cada chamada feita pela IA.\n\n\n04\nOperação contínua\nMonitoramos a conexão e ajustamos as ferramentas quando sua API muda, antes de alguém reclamar.\n\n\n\n\n\n\n\n\n03 · Interface Niflow white label\nOpere os sistemas conversando. Os formulários aparecem quando precisam.\nConectar é o primeiro passo. Com a Interface Niflow, seu time não só consulta: cadastra, aprova e atualiza dados em linguagem natural. Quando a ação pede dados estruturados, o formulário certo aparece na conversa, já validado.\n\n✓Formulários sob demanda, gerados a partir das ferramentas MCP, com validação.\n✓Gráficos e tabelas quando a resposta pede mais que texto.\n✓Vários sistemas num só lugar: ERP, CRM e APIs na mesma conversa.\n✓White label: com o seu nome, suas cores e seu domínio, para o seu time ou para os seus clientes.\n✓Mesma governança: permissões por usuário e cada ação registrada.\n\n\n\n\n\n\n\n\nSM\nSua Marca\n\nERP · CRM conectados\n\n\nCadastra um cliente novo: Padaria Pão Quente, de Florianópolis.\nClaro. Preenchi o que você disse, só confirma o resto:\n\n\nNovo cliente\nerp.clientes.criar\n\nRazão socialPadaria Pão Quente\n\nCidadeFlorianópolis\nPlanoMensal ▾\n\nE-mail de contatocontato@paoquente.com\nConfirmar cadastro\n\n✓ Cliente criado no ERP · ação registrada\nPronto! Quer que eu já abra o primeiro pedido para ela?\n\n\n\n\n\n\n\n\n\n\n04 · Forward Deployed Engineering\nUm engenheiro da Niflow dentro da sua operação.\nNo modelo FDE, quem constrói a integração não fica do outro lado de um ticket. O engenheiro entra na rotina do seu time, entende como o negócio funciona e entrega a conexão junto com quem vai usar no dia a dia.\n\n\n\n\nConsultoria tradicional\n\nSemanas de levantamento de requisitos\nEscopo fechado antes de ver o uso real\nEntrega no fim do projeto, de uma vez\nHandoff e o time se vira sozinho\n\n\n\nNiflow com FDE\n\n✓&#8194;Engenheiro na sua rotina desde a primeira semana\n✓&#8194;Escopo ajustado pelo que o time realmente pergunta à IA\n✓&#8194;Entregas curtas, testadas por quem usa\n✓&#8194;Conhecimento transferido para o seu time\n\n\n\n\n\nO que o engenheiro FDE faz\n\n\n\nSenta com quem usa\nAcompanha a operação para entender quais perguntas o time quer fazer e onde está o dado de verdade.\n\n\n\nConstrói junto\nConecta as APIs, cura as ferramentas MCP e ajusta nomes e descrições até a IA acertar.\n\n\n\nMede o uso\nAcompanha quais ferramentas são chamadas, onde a IA erra e o que vale conectar em seguida.\n\n\n\nTransfere conhecimento\nDocumenta e treina o seu time para que a operação não dependa de uma pessoa só.\n\n\n\n\n\nMenos reunião de requisito. Mais IA funcionando com os dados do seu negócio.\nQuero um engenheiro FDE →\n\n\n\n\n\n\n\n05 · Para quem\nFeito para quem já tem sistema e quer tirar proveito da IA agora.\n\n\n\nPequenas e médias empresas\nCom ERP, CRM ou sistemas de gestão que guardam o dado do negócio, mas que ninguém consegue consultar com IA.\n\n\nSoftware houses e SaaS\nQue querem colocar o próprio produto dentro do ChatGPT e do Claude dos clientes, sem montar um time só para isso.\n\n\nTimes que constroem agentes\nQue precisam dar ferramentas reais aos agentes, com segurança e rastreabilidade, sem reescrever cada integração.\n\n\n\n\n\n\n\n\n\n\n06 · Ainda não chegou lá?\nSem sistema ou com um app feito no vibe coding? A gente organiza primeiro.\nMuita empresa pequena ainda roda em planilha e WhatsApp, ou criou um app com IA que funciona, mas ninguém sabe bem como. O mesmo engenheiro FDE coloca a casa em ordem e deixa tudo pronto para conversar com a IA desde o primeiro dia.\n\n\n\n\n\n\nDa planilha ao sistema\nPara quem controla tudo em planilha, caderno ou mensagem. Construímos um sistema enxuto, só com o que a operação precisa.\n\nMapeamento do processo real, não do ideal\nBanco de dados organizado e importação das planilhas\nOperado pela Interface Niflow: conversa e formulários sob demanda, com a sua marca\nJá nasce com MCP: consulte seu negócio pelo ChatGPT ou Claude\n\n\n\n\n\n\nOrganizar o app feito com IA\nPara quem criou um app no Lovable, Bolt, Cursor ou parecido e agora precisa que ele aguente uso de verdade.\n\nRevisão de segurança: chaves expostas, acesso aos dados, login\nCódigo versionado, banco estruturado e backups\nDeploy próprio, ambientes separados e monitoramento\nDocumentação para seguir evoluindo, com ou sem a Niflow\n\n\n\n\n\n\nPrimeiro organiza, depois conecta. Tudo com o mesmo time.\nQuero organizar meu negócio →\n\n\n\n\n\n\n\n07 · Modelo de contratação\nComece pequeno, prove valor, depois escale.\nCada operação é diferente. Os valores do piloto e da mensalidade saem do diagnóstico, com escopo claro antes de qualquer compromisso.\n\n\n\nDiagnóstico\nGratuito\nUma conversa para entender seus sistemas e dizer, com honestidade, se faz sentido conectar.\n\n\nPonto de partida\nPiloto de 30 dias\nProposta após o diagnóstico\nUm sistema conectado ou organizado, com um caso de uso real e seu time usando no dia a dia.\n\n\nOperação mensal\nMensalidade definida no diagnóstico\nCamada MCP hospedada, monitoramento, auditoria e manutenção quando suas APIs mudarem.\n\n\n\n\n\n\n\n\n08 · Dúvidas frequentes\nO que costumam perguntar.\n\n\n\nPreciso trocar meu sistema?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Não. A conexão é feita sobre as APIs que você já tem. Seu sistema continua sendo a fonte da verdade."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "O que é MCP?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Model Context Protocol, o padrão aberto que permite que assistentes e agentes de IA usem ferramentas e dados externos de forma estruturada."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Funciona com quais IAs?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Com qualquer cliente compatível com MCP, incluindo ChatGPT, Claude e agentes construídos pelo seu time."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "O que é a Interface Niflow white label?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Uma interface de conversa onde seu time opera os sistemas conectados, com formulários e gráficos que aparecem quando a ação pede. Vai com o seu nome, suas cores e seu domínio, e pode ser oferecida também aos seus clientes."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "E a segurança dos meus dados?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A IA só enxerga as ferramentas que você liberar, as credenciais ficam centralizadas e cada chamada fica registrada para auditoria."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Não tenho sistema nenhum. Serve para mim?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Serve. Começamos organizando seus dados e processos em um sistema enxuto, que já nasce pronto para conversar com a IA."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Fiz meu app com vibe coding. Vocês assumem?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Assumimos a organização: revisamos segurança, estrutura e deploy, e deixamos documentado para você continuar evoluindo."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Quanto tempo leva?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "O piloto foi desenhado para ter um caso de uso rodando em até 30 dias. O prazo exato sai do diagnóstico."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#1E3A8A}a:hover{color:#172554}
+.nf, .nf *{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@property --nf-angle{syntax:'<angle>';inherits:false;initial-value:0deg}
+@keyframes nf-drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(48px,-36px) scale(1.12)}100%{transform:translate(0,0) scale(1)}}
+@keyframes nf-drift2{0%{transform:translate(0,0) scale(1)}50%{transform:translate(-56px,30px) scale(.92)}100%{transform:translate(0,0) scale(1)}}
+@keyframes nf-in{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes nf-flow{to{stroke-dashoffset:-24}}
+@keyframes nf-travel{0%{top:0;opacity:0}20%{opacity:1}80%{opacity:1}100%{top:calc(100% - 8px);opacity:0}}
+@keyframes nf-marquee{to{transform:translateX(-50%)}}
+@keyframes nf-pulse{0%{box-shadow:0 0 0 0 rgba(22,163,74,.5)}70%{box-shadow:0 0 0 8px rgba(22,163,74,0)}100%{box-shadow:0 0 0 0 rgba(22,163,74,0)}}
+@keyframes nf-spin{to{--nf-angle:360deg}}
+@keyframes nf-under{to{background-size:100% 38%}}
+@keyframes nf-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes nf-s1{0%,2%{opacity:0;transform:translateY(12px)}6%,90%{opacity:1;transform:none}95%,100%{opacity:0;transform:none}}
+@keyframes nf-s2{0%,12%{opacity:0;transform:translateY(12px)}16%,90%{opacity:1;transform:none}95%,100%{opacity:0;transform:none}}
+@keyframes nf-s3{0%,22%{opacity:0;transform:translateY(16px) scale(.97)}27%,90%{opacity:1;transform:none}95%,100%{opacity:0;transform:none}}
+@keyframes nf-s4{0%,48%{opacity:0;transform:translateY(12px)}53%,90%{opacity:1;transform:none}95%,100%{opacity:0;transform:none}}
+@keyframes nf-s5{0%,62%{opacity:0;transform:translateY(12px)}67%,90%{opacity:1;transform:none}95%,100%{opacity:0;transform:none}}
+@keyframes nf-press{0%,40%{transform:none;filter:none}43%{transform:scale(.96);filter:brightness(.9)}46%,100%{transform:none;filter:none}}
+@keyframes nf-type{0%,28%{width:0}38%,100%{width:100%}}
+.nf-s1{animation:nf-s1 14s ease-in-out infinite}
+.nf-s2{animation:nf-s2 14s ease-in-out infinite}
+.nf-s3{animation:nf-s3 14s ease-in-out infinite}
+.nf-s4{animation:nf-s4 14s ease-in-out infinite}
+.nf-s5{animation:nf-s5 14s ease-in-out infinite}
+.nf-press{animation:nf-press 14s ease-in-out infinite}
+.nf-type{display:inline-block;overflow:hidden;white-space:nowrap;vertical-align:bottom;animation:nf-type 14s steps(24,end) infinite}
+.nf-header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.72);-webkit-backdrop-filter:saturate(1.6) blur(14px);backdrop-filter:saturate(1.6) blur(14px)}
+.nf-blob{position:absolute;border-radius:50%;filter:blur(70px);pointer-events:none;animation:nf-drift 18s ease-in-out infinite}
+.nf-blob2{animation:nf-drift2 22s ease-in-out infinite}
+.nf-grid-bg{position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(148,163,184,.22) 1px,transparent 1px),linear-gradient(90deg,rgba(148,163,184,.22) 1px,transparent 1px);background-size:56px 56px;-webkit-mask-image:radial-gradient(ellipse 70% 60% at 50% 35%,#000 20%,transparent 75%);mask-image:radial-gradient(ellipse 70% 60% at 50% 35%,#000 20%,transparent 75%)}
+.nf-hero-in{opacity:0;animation:nf-in .9s cubic-bezier(.2,.7,.2,1) forwards}
+.nf-d1{animation-delay:.05s}.nf-d2{animation-delay:.18s}.nf-d3{animation-delay:.32s}.nf-d4{animation-delay:.46s}.nf-d5{animation-delay:.6s}.nf-d6{animation-delay:.75s}
+.nf-under{background-image:linear-gradient(var(--hl),var(--hl));background-repeat:no-repeat;background-position:0 88%;background-size:0% 38%;animation:nf-under 1s 1s cubic-bezier(.2,.7,.2,1) forwards}
+@supports (animation-timeline: view()){
+.nf-reveal{animation:nf-in linear both;animation-timeline:view();animation-range:entry 0% cover 22%}
+}
+.nf-card{transition:transform .4s cubic-bezier(.2,.7,.2,1),box-shadow .4s,border-color .4s,background-color .4s}
+.nf-card:hover{transform:translateY(-6px);box-shadow:0 24px 48px -16px rgba(15,23,42,.22);border-color:var(--accent)}
+.nf-card:hover .nf-ico{transform:rotate(-6deg) scale(1.08);background:var(--accent)}
+.nf-card:hover .nf-ico svg{stroke:#FFFFFF}
+.nf-ico{transition:transform .4s cubic-bezier(.2,.7,.2,1),background-color .3s}
+.nf-ico svg{transition:stroke .3s}
+.nf-btn{position:relative;overflow:hidden;display:inline-flex;align-items:center;gap:10px;transition:transform .25s cubic-bezier(.2,.7,.2,1),box-shadow .25s}
+.nf-btn:hover{transform:translateY(-2px);box-shadow:0 12px 28px -10px var(--accent)}
+.nf-btn::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.4) 50%,transparent 70%);transform:translateX(-120%);transition:transform .7s}
+.nf-btn:hover::after{transform:translateX(120%)}
+.nf-arrow{display:inline-block;transition:transform .25s}
+.nf-btn:hover .nf-arrow{transform:translateX(4px)}
+.nf-ghost{transition:background-color .25s,border-color .25s,transform .25s}
+.nf-ghost:hover{transform:translateY(-2px);border-color:#0F172A}
+.nf-link{position:relative;text-decoration:none}
+.nf-link::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.nf-link:hover::after{transform:scaleX(1)}
+.nf-flowline{stroke-dasharray:4 8;animation:nf-flow 1s linear infinite}
+.nf-dot{position:absolute;left:50%;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px var(--accent);animation:nf-travel 2.4s ease-in-out infinite}
+.nf-dot2{animation-delay:1.2s}
+.nf-chip{transition:transform .3s,border-color .3s,box-shadow .3s}
+.nf-chip:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 8px 20px -10px rgba(15,23,42,.3)}
+.nf-float{animation:nf-float 6s ease-in-out infinite}
+.nf-live{animation:nf-pulse 2s infinite}
+.nf-marquee-mask{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.nf-marquee{display:flex;width:max-content;animation:nf-marquee 45s linear infinite}
+.nf-marquee-mask:hover .nf-marquee{animation-play-state:paused}
+.nf-ring{position:relative;border-radius:18px;padding:1.5px;background:conic-gradient(from var(--nf-angle),#334155 0deg,#334155 200deg,#93C5FD 280deg,#FFFFFF 320deg,#334155 360deg);animation:nf-spin 6s linear infinite}
+.nf-ring2{animation-delay:-3s}
+.nf-step-num{transition:transform .4s cubic-bezier(.2,.7,.2,1),background-color .3s,color .3s}
+.nf-card:hover .nf-step-num{transform:scale(1.1);background:var(--accent);color:#FFFFFF}
+.nf-row{transition:transform .3s,color .3s}
+.nf-row:hover{transform:translateX(6px)}
+.nf-input{transition:border-color .2s,box-shadow .2s}
+.nf-input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 4px rgba(29,78,216,.15)}
+
+.nf section{scroll-margin-top:72px}
+.nf-mob{display:none}
+.nf-mob summary{list-style:none;cursor:pointer}
+.nf-mob summary::-webkit-details-marker{display:none}
+.nf-mob details[open] .nf-burger-open{display:none}
+.nf-mob details:not([open]) .nf-burger-close{display:none}
+.nf-mob-panel{position:absolute;left:0;right:0;top:100%;background:#FFFFFF;border-bottom:1px solid #E2E8F0;box-shadow:0 24px 40px -20px rgba(15,23,42,.35);padding:8px 20px 20px;display:flex;flex-direction:column}
+.nf-mob-panel a{display:block;padding:14px 4px;border-bottom:1px solid #F1F5F9;font-size:17px;font-weight:600;color:#0F172A;text-decoration:none}
+@media (max-width: 880px){
+.nf-nav-desk{display:none !important}
+.nf-mob{display:flex;align-items:center;gap:10px}
+}
+@media (max-width: 640px){
+.nf-header > div{padding:12px 16px !important}
+.nf section > div[style*="padding: 104px"]{padding:64px 20px !important;gap:32px !important}
+#topo > div:last-of-type{padding:44px 20px 56px !important;gap:40px !important}
+#diagnostico > div:last-of-type, #interface > div{gap:36px !important}
+.nf-card, .nf-ring > div, #fde .nf-reveal[style*="padding: 32px"], #modelo .nf-card{padding:22px !important}
+.nf form{padding:22px !important}
+.nf-hero-ctas a{flex:1 1 100%;justify-content:center}
+.nf-hide-sm{display:none !important}
+.nf-demo-body{min-height:0 !important;padding:16px 12px !important}
+.nf-demo-body > div{max-width:92% !important}
+.nf-cta-row a{flex:1 1 100%;justify-content:center}
+.nf h2{font-size:30px !important}
+}
+@media (prefers-reduced-motion: reduce){
+.nf *, .nf *::after{animation:none !important;transition:none !important}
+.nf-hero-in{opacity:1}
+.nf-under{background-size:100% 38%}
+html{scroll-behavior:auto}
+}
+
+@keyframes nf-rise{from{transform:translateY(18px)}to{transform:none}}
+.nf-hero-in.nf-d2,.nf-hero-in.nf-d3{opacity:1;animation-name:nf-rise}
+.nf-skip{position:absolute;left:-9999px;top:8px;z-index:100;background:#0F172A;color:#fff;padding:10px 14px;border-radius:8px}
+.nf-skip:focus{left:8px}
+</style>
+</head>
+<body>
+<div class="nf" style="--accent: #1D4ED8; --hl: rgba(147,197,253,.55); font-family: Geist, Inter, system-ui, sans-serif; color: #0F172A; background: #FFFFFF; width: 100%">
+
+<a class="nf-skip" href="#conteudo">Pular para o conteúdo</a>
+<header class="nf-header" style="border-bottom: 1px solid rgba(226,232,240,.8)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#topo" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #0F172A">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #1D4ED8; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18V6l8 12V6"></path><path d="M16 6h4"></path><path d="M16 12h4"></path><path d="M16 18h4"></path></svg>
+</span>
+<span style="font-weight: 800; font-size: 20px; letter-spacing: -0.03em">Niflow</span>
+</a>
+<nav class="nf-nav-desk" aria-label="Principal" style="display: flex; flex-wrap: wrap; align-items: center; gap: 22px; font-size: 15px; font-weight: 500">
+<a class="nf-link" href="#como-funciona" style="color: #334155">Como funciona</a>
+<a class="nf-link" href="#interface" style="color: #334155">Interface</a>
+<a class="nf-link" href="#fde" style="color: #334155">Modelo FDE</a>
+<a class="nf-link" href="#para-quem" style="color: #334155">Para quem</a>
+<a class="nf-link" href="#sem-sistema" style="color: #334155">Sem sistema?</a>
+<a class="nf-link" href="#modelo" style="color: #334155">Modelo</a>
+<a class="nf-btn" href="#diagnostico" style="text-decoration: none; background: #0F172A; color: #FFFFFF; padding: 11px 18px; border-radius: 999px; font-weight: 600">Agendar diagnóstico <span class="nf-arrow" aria-hidden="true">→</span></a>
+</nav>
+<div class="nf-mob">
+<a class="nf-btn" href="#diagnostico" style="text-decoration: none; background: #0F172A; color: #FFFFFF; padding: 10px 14px; border-radius: 999px; font-weight: 600; font-size: 14px">Diagnóstico</a>
+<details>
+<summary aria-label="Abrir menu" style="width: 44px; height: 44px; border-radius: 12px; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; background: #FFFFFF">
+<svg class="nf-burger-open" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h16"></path></svg>
+<svg class="nf-burger-close" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg>
+</summary>
+<nav class="nf-mob-panel" aria-label="Menu">
+<a href="#como-funciona">Como funciona</a>
+<a href="#interface">Interface Niflow</a>
+<a href="#fde">Modelo FDE</a>
+<a href="#para-quem">Para quem</a>
+<a href="#sem-sistema">Sem sistema?</a>
+<a href="#modelo">Modelo</a>
+<a href="#faq">Dúvidas</a>
+</nav>
+</details>
+</div>
+</div>
+</header>
+<main id="conteudo">
+
+<section id="topo" style="position: relative; overflow: hidden; background: #FAFBFD; border-bottom: 1px solid #E2E8F0">
+<div class="nf-grid-bg"></div>
+<div class="nf-blob" style="width: 520px; height: 520px; top: -180px; right: -120px; background: rgba(59,130,246,.35)"></div>
+<div class="nf-blob nf-blob2" style="width: 440px; height: 440px; bottom: -200px; left: -140px; background: rgba(20,184,166,.25)"></div>
+<div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 96px 24px 104px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 26px">
+<p class="nf-hero-in nf-d1" style="margin: 0; align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; font-family: 'Geist Mono', monospace; font-size: 13px; font-weight: 500; color: #1E3A8A; background: rgba(255,255,255,.8); border: 1px solid #DBEAFE; padding: 7px 14px; border-radius: 999px">
+<span class="nf-live" style="width: 8px; height: 8px; border-radius: 50%; background: #16A34A"></span>Integração de sistemas com IA via MCP</p>
+<h1 class="nf-hero-in nf-d2" style="margin: 0; font-weight: 800; font-size: clamp(38px, 5.4vw, 64px); line-height: 1.02; letter-spacing: -0.045em">Seus sistemas <span class="nf-under">conversando com a IA</span>. Sem trocar de sistema.</h1>
+<p class="nf-hero-in nf-d3" style="margin: 0; font-size: 19px; line-height: 1.6; color: #475569; max-width: 560px">A Niflow conecta o ERP, o CRM e as APIs que sua empresa já usa ao ChatGPT, ao Claude e aos seus agentes de IA, com controle de acesso, auditoria e um engenheiro dedicado junto do seu time.</p>
+<div class="nf-hero-in nf-d4 nf-hero-ctas" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px">
+<a class="nf-btn" href="#diagnostico" style="text-decoration: none; background: #1D4ED8; color: #FFFFFF; padding: 16px 26px; border-radius: 12px; font-weight: 600; font-size: 16px">Agendar diagnóstico gratuito <span class="nf-arrow" aria-hidden="true">→</span></a>
+<a class="nf-ghost" href="#como-funciona" style="text-decoration: none; background: rgba(255,255,255,.85); color: #0F172A; border: 1px solid #CBD5E1; padding: 15px 24px; border-radius: 12px; font-weight: 600; font-size: 16px">Ver como funciona</a>
+</div>
+</div>
+
+<div class="nf-hero-in nf-d5" style="flex: 1 1 420px; min-width: 0">
+<div class="nf-float" style="background: rgba(255,255,255,.78); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); border: 1px solid rgba(226,232,240,.9); border-radius: 22px; padding: 26px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 1px 2px rgba(15,23,42,.04), 0 30px 60px -20px rgba(15,23,42,.25)">
+<p style="margin: 0; font-family: 'Geist Mono', monospace; font-size: 12px; color: #64748B; text-transform: uppercase; letter-spacing: 0.08em">Seus sistemas</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<span class="nf-chip" style="flex: 1 1 100px; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; font-weight: 600; font-size: 15px; text-align: center; background: #FFFFFF">ERP</span>
+<span class="nf-chip" style="flex: 1 1 100px; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; font-weight: 600; font-size: 15px; text-align: center; background: #FFFFFF">CRM</span>
+<span class="nf-chip" style="flex: 1 1 100px; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; font-weight: 600; font-size: 15px; text-align: center; background: #FFFFFF">API própria</span>
+</div>
+<div style="position: relative; height: 44px; display: flex; justify-content: center">
+<svg aria-hidden="true" width="4" height="44" viewBox="0 0 4 44"><line class="nf-flowline" x1="2" y1="0" x2="2" y2="44" stroke="#94A3B8" stroke-width="2"></line></svg>
+<span class="nf-dot"></span><span class="nf-dot nf-dot2"></span>
+</div>
+<div style="border-radius: 16px; padding: 20px; background: linear-gradient(135deg, #1D4ED8, #0F172A); color: #FFFFFF; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 16px 32px -14px #1D4ED8">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<span style="font-weight: 700; font-size: 18px; letter-spacing: -0.01em">Camada MCP Niflow</span>
+<span style="display: inline-flex; align-items: center; gap: 8px; font-family: 'Geist Mono', monospace; font-size: 12px; background: rgba(255,255,255,.14); padding: 5px 10px; border-radius: 999px"><span class="nf-live" style="width: 7px; height: 7px; border-radius: 50%; background: #4ADE80"></span>auditando</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; font-weight: 500">
+<span style="background: rgba(255,255,255,.14); padding: 6px 11px; border-radius: 999px">Autenticação</span>
+<span style="background: rgba(255,255,255,.14); padding: 6px 11px; border-radius: 999px">Permissões por ferramenta</span>
+<span style="background: rgba(255,255,255,.14); padding: 6px 11px; border-radius: 999px">Logs de auditoria</span>
+<span style="background: rgba(255,255,255,.14); padding: 6px 11px; border-radius: 999px">Monitoramento</span>
+</div>
+</div>
+<div style="position: relative; height: 44px; display: flex; justify-content: center">
+<svg aria-hidden="true" width="4" height="44" viewBox="0 0 4 44"><line class="nf-flowline" x1="2" y1="0" x2="2" y2="44" stroke="#94A3B8" stroke-width="2"></line></svg>
+<span class="nf-dot"></span><span class="nf-dot nf-dot2"></span>
+</div>
+<p style="margin: 0; font-family: 'Geist Mono', monospace; font-size: 12px; color: #64748B; text-transform: uppercase; letter-spacing: 0.08em">Onde sua equipe trabalha</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<span class="nf-chip" style="flex: 1 1 100px; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; font-weight: 600; font-size: 15px; text-align: center; background: #FFFFFF">ChatGPT</span>
+<span class="nf-chip" style="flex: 1 1 100px; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; font-weight: 600; font-size: 15px; text-align: center; background: #FFFFFF">Claude</span>
+<span class="nf-chip" style="flex: 1 1 100px; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; font-weight: 600; font-size: 15px; text-align: center; background: #FFFFFF">Seus agentes</span>
+<a class="nf-chip" href="#interface" style="flex: 1 1 100%; text-decoration: none; border: 1px solid #1D4ED8; border-radius: 12px; padding: 14px; font-weight: 700; font-size: 15px; text-align: center; background: #EFF6FF; color: #1E3A8A">Interface Niflow · com a sua marca</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-label="Tecnologias que conectamos" style="background: #FFFFFF; border-bottom: 1px solid #E2E8F0; padding: 28px 0">
+<p style="margin: 0 0 18px; text-align: center; font-family: 'Geist Mono', monospace; font-size: 12px; color: #64748B; text-transform: uppercase; letter-spacing: 0.1em">Conecta com o que você já usa</p>
+<div class="nf-marquee-mask">
+<div class="nf-marquee" style="gap: 14px; font-size: 16px; font-weight: 600; color: #334155">
+<span style="display: flex; gap: 14px; padding-right: 14px">
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">ERP</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">CRM</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Planilhas</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">APIs REST</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">OpenAPI</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">PostgreSQL</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Supabase</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Apps no Lovable</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Apps no Bolt</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">ChatGPT</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Claude</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Agentes de IA</span>
+</span>
+<span aria-hidden="true" style="display: flex; gap: 14px; padding-right: 14px">
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">ERP</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">CRM</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Planilhas</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">APIs REST</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">OpenAPI</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">PostgreSQL</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Supabase</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Apps no Lovable</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Apps no Bolt</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">ChatGPT</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Claude</span>
+<span style="padding: 10px 18px; border: 1px solid #E2E8F0; border-radius: 999px; white-space: nowrap">Agentes de IA</span>
+</span>
+</div>
+</div>
+</section>
+
+<section style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-direction: column; gap: 48px">
+<div class="nf-reveal" style="display: flex; flex-direction: column; gap: 16px; max-width: 740px">
+<p style="margin: 0; font-family: 'Geist Mono', monospace; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: #1E3A8A">01 · O problema</p>
+<h2 style="margin: 0; font-weight: 800; font-size: clamp(30px, 3.8vw, 44px); line-height: 1.1; letter-spacing: -0.035em">Todo mundo quer usar IA com os dados da empresa. Quase ninguém consegue ligar os fios.</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div class="nf-card nf-reveal" style="flex: 1 1 300px; border: 1px solid #E2E8F0; border-radius: 20px; padding: 30px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF">
+<span class="nf-ico" style="width: 48px; height: 48px; border-radius: 14px; background: #EFF6FF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1E3A8A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="M9 13h6"></path><path d="M9 17h4"></path></svg></span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.02em">APIs sem padrão</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Sistema legado, documentação incompleta, cada fornecedor com um jeito diferente de expor os dados.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 300px; border: 1px solid #E2E8F0; border-radius: 20px; padding: 30px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF">
+<span class="nf-ico" style="width: 48px; height: 48px; border-radius: 14px; background: #EFF6FF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1E3A8A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg></span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.02em">Autenticação de todo tipo</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Usuário e senha, token, client credentials. Ninguém quer espalhar credencial em prompt ou planilha.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 300px; border: 1px solid #E2E8F0; border-radius: 20px; padding: 30px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF">
+<span class="nf-ico" style="width: 48px; height: 48px; border-radius: 14px; background: #EFF6FF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1E3A8A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"></path><path d="M9 12l2 2 4-4"></path></svg></span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.02em">Risco com dados e LGPD</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Dar acesso amplo à IA sem saber quem consultou o quê é o tipo de coisa que tira o sono do jurídico.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="como-funciona" style="position: relative; overflow: hidden; background: #F6F8FB; border-top: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0">
+<div class="nf-grid-bg"></div>
+<div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-direction: column; gap: 48px">
+<div class="nf-reveal" style="display: flex; flex-direction: column; gap: 16px; max-width: 740px">
+<p style="margin: 0; font-family: 'Geist Mono', monospace; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: #1E3A8A">02 · Como funciona</p>
+<h2 style="margin: 0; font-weight: 800; font-size: clamp(30px, 3.8vw, 44px); line-height: 1.1; letter-spacing: -0.035em">Do diagnóstico à operação, com a gente do seu lado.</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div class="nf-card nf-reveal" style="flex: 1 1 240px; background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<span class="nf-step-num" style="align-self: flex-start; font-family: 'Geist Mono', monospace; font-size: 14px; color: #1D4ED8; background: #EFF6FF; padding: 8px 12px; border-radius: 10px">01</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.02em">Diagnóstico</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Mapeamos seus sistemas, as perguntas que o time quer fazer à IA e o que pode ou não ser exposto.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 240px; background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<span class="nf-step-num" style="align-self: flex-start; font-family: 'Geist Mono', monospace; font-size: 14px; color: #1D4ED8; background: #EFF6FF; padding: 8px 12px; border-radius: 10px">02</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.02em">Conexão</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Descobrimos os endpoints das suas APIs e transformamos em ferramentas MCP curadas, com nomes e descrições que a IA entende.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 240px; background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<span class="nf-step-num" style="align-self: flex-start; font-family: 'Geist Mono', monospace; font-size: 14px; color: #1D4ED8; background: #EFF6FF; padding: 8px 12px; border-radius: 10px">03</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.02em">Governança</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Credenciais centralizadas, permissão por ferramenta e registro de cada chamada feita pela IA.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 240px; background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<span class="nf-step-num" style="align-self: flex-start; font-family: 'Geist Mono', monospace; font-size: 14px; color: #1D4ED8; background: #EFF6FF; padding: 8px 12px; border-radius: 10px">04</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.02em">Operação contínua</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Monitoramos a conexão e ajustamos as ferramentas quando sua API muda, antes de alguém reclamar.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="interface" style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div class="nf-reveal" style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-family: 'Geist Mono', monospace; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: #1E3A8A">03 · Interface Niflow white label</p>
+<h2 style="margin: 0; font-weight: 800; font-size: clamp(30px, 3.8vw, 44px); line-height: 1.1; letter-spacing: -0.035em">Opere os sistemas conversando. Os formulários aparecem quando precisam.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #475569">Conectar é o primeiro passo. Com a Interface Niflow, seu time não só consulta: cadastra, aprova e atualiza dados em linguagem natural. Quando a ação pede dados estruturados, o formulário certo aparece na conversa, já validado.</p>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 16px; line-height: 1.5">
+<p class="nf-row" style="margin: 0; display: flex; gap: 12px; align-items: flex-start"><span style="flex: none; width: 24px; height: 24px; border-radius: 8px; background: #EFF6FF; color: #1E3A8A; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700">✓</span><span><strong>Formulários sob demanda</strong>, gerados a partir das ferramentas MCP, com validação.</span></p>
+<p class="nf-row" style="margin: 0; display: flex; gap: 12px; align-items: flex-start"><span style="flex: none; width: 24px; height: 24px; border-radius: 8px; background: #EFF6FF; color: #1E3A8A; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700">✓</span><span><strong>Gráficos e tabelas</strong> quando a resposta pede mais que texto.</span></p>
+<p class="nf-row" style="margin: 0; display: flex; gap: 12px; align-items: flex-start"><span style="flex: none; width: 24px; height: 24px; border-radius: 8px; background: #EFF6FF; color: #1E3A8A; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700">✓</span><span><strong>Vários sistemas num só lugar</strong>: ERP, CRM e APIs na mesma conversa.</span></p>
+<p class="nf-row" style="margin: 0; display: flex; gap: 12px; align-items: flex-start"><span style="flex: none; width: 24px; height: 24px; border-radius: 8px; background: #EFF6FF; color: #1E3A8A; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700">✓</span><span><strong>White label</strong>: com o seu nome, suas cores e seu domínio, para o seu time ou para os seus clientes.</span></p>
+<p class="nf-row" style="margin: 0; display: flex; gap: 12px; align-items: flex-start"><span style="flex: none; width: 24px; height: 24px; border-radius: 8px; background: #EFF6FF; color: #1E3A8A; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700">✓</span><span><strong>Mesma governança</strong>: permissões por usuário e cada ação registrada.</span></p>
+</div>
+</div>
+
+<div class="nf-reveal" style="flex: 1 1 440px; min-width: 0">
+<div role="img" aria-label="Demonstração: usuário pede para cadastrar um cliente, um formulário aparece na conversa, o cadastro é confirmado no ERP" style="background: #0B1220; border-radius: 24px; padding: 14px; box-shadow: 0 40px 80px -30px rgba(15,23,42,.55)">
+<div style="background: #FFFFFF; border-radius: 16px; overflow: hidden">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 18px; border-bottom: 1px solid #E2E8F0">
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="width: 28px; height: 28px; border-radius: 8px; background: #1D4ED8; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 13px">SM</span>
+<span style="font-weight: 700; font-size: 15px">Sua Marca</span>
+</div>
+<span class="nf-hide-sm" style="display: inline-flex; align-items: center; gap: 8px; font-family: 'Geist Mono', monospace; font-size: 11px; color: #475569"><span class="nf-live" style="width: 7px; height: 7px; border-radius: 50%; background: #16A34A"></span>ERP · CRM conectados</span>
+</div>
+<div class="nf-demo-body" style="padding: 20px 18px; display: flex; flex-direction: column; gap: 14px; min-height: 470px; background: #F8FAFC">
+<div class="nf-s1" style="align-self: flex-end; max-width: 82%; background: #1D4ED8; color: #FFFFFF; padding: 12px 15px; border-radius: 16px 16px 4px 16px; font-size: 15px; line-height: 1.45">Cadastra um cliente novo: Padaria Pão Quente, de Florianópolis.</div>
+<div class="nf-s2" style="align-self: flex-start; max-width: 82%; background: #FFFFFF; border: 1px solid #E2E8F0; padding: 12px 15px; border-radius: 16px 16px 16px 4px; font-size: 15px; line-height: 1.45">Claro. Preenchi o que você disse, só confirma o resto:</div>
+<div class="nf-s3" style="align-self: flex-start; width: 88%; background: #FFFFFF; border: 1px solid #CBD5E1; border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 12px 28px -16px rgba(15,23,42,.35)">
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-weight: 700; font-size: 14px">Novo cliente</span>
+<span style="font-family: 'Geist Mono', monospace; font-size: 11px; color: #475569">erp.clientes.criar</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 12px; color: #475569; font-weight: 600">Razão social</span><span style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 8px 10px; font-size: 14px">Padaria Pão Quente</span></div>
+<div style="display: flex; gap: 10px">
+<div style="flex: 1; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 12px; color: #475569; font-weight: 600">Cidade</span><span style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 8px 10px; font-size: 14px">Florianópolis</span></div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 12px; color: #475569; font-weight: 600">Plano</span><span style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 8px 10px; font-size: 14px">Mensal ▾</span></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 12px; color: #475569; font-weight: 600">E-mail de contato</span><span style="border: 1px solid #1D4ED8; border-radius: 8px; padding: 8px 10px; font-size: 14px"><span class="nf-type">contato@paoquente.com</span></span></div>
+<span class="nf-press" style="align-self: flex-end; background: #1D4ED8; color: #FFFFFF; padding: 9px 14px; border-radius: 8px; font-size: 13px; font-weight: 600">Confirmar cadastro</span>
+</div>
+<div class="nf-s4" style="align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; background: #F0FDF4; border: 1px solid #BBF7D0; color: #166534; padding: 9px 13px; border-radius: 999px; font-size: 13px; font-weight: 600">✓ Cliente criado no ERP · ação registrada</div>
+<div class="nf-s5" style="align-self: flex-start; max-width: 82%; background: #FFFFFF; border: 1px solid #E2E8F0; padding: 12px 15px; border-radius: 16px 16px 16px 4px; font-size: 15px; line-height: 1.45">Pronto! Quer que eu já abra o primeiro pedido para ela?</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="fde" style="background: #FFFFFF; border-top: 1px solid #E2E8F0">
+<div style="max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-direction: column; gap: 52px">
+<div class="nf-reveal" style="display: flex; flex-direction: column; gap: 16px; max-width: 760px">
+<p style="margin: 0; font-family: 'Geist Mono', monospace; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: #1E3A8A">04 · Forward Deployed Engineering</p>
+<h2 style="margin: 0; font-weight: 800; font-size: clamp(30px, 3.8vw, 44px); line-height: 1.1; letter-spacing: -0.035em">Um engenheiro da Niflow dentro da sua operação.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #475569">No modelo FDE, quem constrói a integração não fica do outro lado de um ticket. O engenheiro entra na rotina do seu time, entende como o negócio funciona e entrega a conexão junto com quem vai usar no dia a dia.</p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: stretch">
+<div class="nf-reveal" style="flex: 1 1 360px; min-width: 0; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 18px">
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; color: #475569">Consultoria tradicional</h3>
+<div style="display: flex; flex-direction: column; gap: 14px; font-size: 16px; line-height: 1.5; color: #475569">
+<p style="margin: 0; padding-bottom: 14px; border-bottom: 1px solid #E2E8F0">Semanas de levantamento de requisitos</p>
+<p style="margin: 0; padding-bottom: 14px; border-bottom: 1px solid #E2E8F0">Escopo fechado antes de ver o uso real</p>
+<p style="margin: 0; padding-bottom: 14px; border-bottom: 1px solid #E2E8F0">Entrega no fim do projeto, de uma vez</p>
+<p style="margin: 0">Handoff e o time se vira sozinho</p>
+</div>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 360px; min-width: 0; background: #FFFFFF; border: 2px solid #1D4ED8; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 24px 48px -24px #1D4ED8">
+<h3 style="margin: 0; font-size: 20px; font-weight: 800; color: #0F172A">Niflow com FDE</h3>
+<div style="display: flex; flex-direction: column; gap: 14px; font-size: 16px; line-height: 1.5; color: #0F172A; font-weight: 500">
+<p class="nf-row" style="margin: 0; padding-bottom: 14px; border-bottom: 1px solid #E2E8F0">✓&#8194;Engenheiro na sua rotina desde a primeira semana</p>
+<p class="nf-row" style="margin: 0; padding-bottom: 14px; border-bottom: 1px solid #E2E8F0">✓&#8194;Escopo ajustado pelo que o time realmente pergunta à IA</p>
+<p class="nf-row" style="margin: 0; padding-bottom: 14px; border-bottom: 1px solid #E2E8F0">✓&#8194;Entregas curtas, testadas por quem usa</p>
+<p class="nf-row" style="margin: 0">✓&#8194;Conhecimento transferido para o seu time</p>
+</div>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 22px">
+<h3 class="nf-reveal" style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.02em">O que o engenheiro FDE faz</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div class="nf-card nf-reveal" style="flex: 1 1 240px; border: 1px solid #E2E8F0; border-radius: 20px; padding: 26px; display: flex; flex-direction: column; gap: 12px">
+<span class="nf-ico" style="width: 46px; height: 46px; border-radius: 14px; background: #EFF6FF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1E3A8A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"></circle><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5"></path><path d="M16 4.5a3.5 3.5 0 0 1 0 7"></path><path d="M18.5 14.8c1.6.8 2.7 2.6 3 5.2"></path></svg></span>
+<h4 style="margin: 0; font-size: 18px; font-weight: 700">Senta com quem usa</h4>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Acompanha a operação para entender quais perguntas o time quer fazer e onde está o dado de verdade.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 240px; border: 1px solid #E2E8F0; border-radius: 20px; padding: 26px; display: flex; flex-direction: column; gap: 12px">
+<span class="nf-ico" style="width: 46px; height: 46px; border-radius: 14px; background: #EFF6FF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1E3A8A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5"></path><path d="M16 7l5 5-5 5"></path><path d="M13.5 4l-3 16"></path></svg></span>
+<h4 style="margin: 0; font-size: 18px; font-weight: 700">Constrói junto</h4>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Conecta as APIs, cura as ferramentas MCP e ajusta nomes e descrições até a IA acertar.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 240px; border: 1px solid #E2E8F0; border-radius: 20px; padding: 26px; display: flex; flex-direction: column; gap: 12px">
+<span class="nf-ico" style="width: 46px; height: 46px; border-radius: 14px; background: #EFF6FF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1E3A8A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"></path><path d="M10 20V4"></path><path d="M16 20v-7"></path><path d="M22 20H2"></path></svg></span>
+<h4 style="margin: 0; font-size: 18px; font-weight: 700">Mede o uso</h4>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Acompanha quais ferramentas são chamadas, onde a IA erra e o que vale conectar em seguida.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 240px; border: 1px solid #E2E8F0; border-radius: 20px; padding: 26px; display: flex; flex-direction: column; gap: 12px">
+<span class="nf-ico" style="width: 46px; height: 46px; border-radius: 14px; background: #EFF6FF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1E3A8A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h11a3 3 0 0 1 3 3v12H7a3 3 0 0 1-3-3z"></path><path d="M4 17a3 3 0 0 1 3-3h11"></path></svg></span>
+<h4 style="margin: 0; font-size: 18px; font-weight: 700">Transfere conhecimento</h4>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Documenta e treina o seu time para que a operação não dependa de uma pessoa só.</p>
+</div>
+</div>
+</div>
+
+<div class="nf-reveal nf-cta-row" style="background: #F6F8FB; border: 1px solid #E2E8F0; border-radius: 20px; padding: 32px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between">
+<p style="margin: 0; flex: 1 1 420px; font-size: 21px; font-weight: 700; line-height: 1.4; letter-spacing: -0.02em">Menos reunião de requisito. Mais IA funcionando com os dados do seu negócio.</p>
+<a class="nf-btn" href="#diagnostico" style="text-decoration: none; background: #1D4ED8; color: #FFFFFF; padding: 16px 24px; border-radius: 12px; font-weight: 600; font-size: 16px">Quero um engenheiro FDE <span class="nf-arrow" aria-hidden="true">→</span></a>
+</div>
+</div>
+</section>
+
+<section id="para-quem" style="background: #FFFFFF; border-top: 1px solid #E2E8F0">
+<div style="max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-direction: column; gap: 48px">
+<div class="nf-reveal" style="display: flex; flex-direction: column; gap: 16px; max-width: 740px">
+<p style="margin: 0; font-family: 'Geist Mono', monospace; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: #1E3A8A">05 · Para quem</p>
+<h2 style="margin: 0; font-weight: 800; font-size: clamp(30px, 3.8vw, 44px); line-height: 1.1; letter-spacing: -0.035em">Feito para quem já tem sistema e quer tirar proveito da IA agora.</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div class="nf-card nf-reveal" style="flex: 1 1 300px; border: 1px solid #E2E8F0; border-radius: 20px; padding: 30px; display: flex; flex-direction: column; gap: 12px; background: linear-gradient(180deg, #F8FAFF, #FFFFFF)">
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.02em">Pequenas e médias empresas</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Com ERP, CRM ou sistemas de gestão que guardam o dado do negócio, mas que ninguém consegue consultar com IA.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 300px; border: 1px solid #E2E8F0; border-radius: 20px; padding: 30px; display: flex; flex-direction: column; gap: 12px; background: linear-gradient(180deg, #F8FAFF, #FFFFFF)">
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.02em">Software houses e SaaS</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Que querem colocar o próprio produto dentro do ChatGPT e do Claude dos clientes, sem montar um time só para isso.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 300px; border: 1px solid #E2E8F0; border-radius: 20px; padding: 30px; display: flex; flex-direction: column; gap: 12px; background: linear-gradient(180deg, #F8FAFF, #FFFFFF)">
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.02em">Times que constroem agentes</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Que precisam dar ferramentas reais aos agentes, com segurança e rastreabilidade, sem reescrever cada integração.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="sem-sistema" style="position: relative; overflow: hidden; background: #0B1220; color: #FFFFFF">
+<div class="nf-blob" style="width: 560px; height: 560px; top: -220px; left: 40%; background: rgba(59,130,246,.28)"></div>
+<div class="nf-blob nf-blob2" style="width: 420px; height: 420px; bottom: -220px; right: -120px; background: rgba(20,184,166,.18)"></div>
+<div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-direction: column; gap: 48px">
+<div class="nf-reveal" style="display: flex; flex-direction: column; gap: 16px; max-width: 780px">
+<p style="margin: 0; font-family: 'Geist Mono', monospace; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: #93C5FD">06 · Ainda não chegou lá?</p>
+<h2 style="margin: 0; font-weight: 800; font-size: clamp(30px, 3.8vw, 44px); line-height: 1.1; letter-spacing: -0.035em">Sem sistema ou com um app feito no vibe coding? A gente organiza primeiro.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #CBD5E1">Muita empresa pequena ainda roda em planilha e WhatsApp, ou criou um app com IA que funciona, mas ninguém sabe bem como. O mesmo engenheiro FDE coloca a casa em ordem e deixa tudo pronto para conversar com a IA desde o primeiro dia.</p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: stretch">
+<div class="nf-ring nf-reveal" style="flex: 1 1 420px; min-width: 0">
+<div style="height: 100%; background: #111A2E; border-radius: 17px; padding: 32px; display: flex; flex-direction: column; gap: 18px">
+<svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#93C5FD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M3 9h18"></path><path d="M9 9v11"></path><path d="M15 9v11"></path></svg>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.02em">Da planilha ao sistema</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #CBD5E1">Para quem controla tudo em planilha, caderno ou mensagem. Construímos um sistema enxuto, só com o que a operação precisa.</p>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 15px; line-height: 1.5; color: #E2E8F0">
+<p class="nf-row" style="margin: 0; padding-top: 12px; border-top: 1px solid #253248">Mapeamento do processo real, não do ideal</p>
+<p class="nf-row" style="margin: 0; padding-top: 12px; border-top: 1px solid #253248">Banco de dados organizado e importação das planilhas</p>
+<p class="nf-row" style="margin: 0; padding-top: 12px; border-top: 1px solid #253248">Operado pela Interface Niflow: conversa e formulários sob demanda, com a sua marca</p>
+<p class="nf-row" style="margin: 0; padding-top: 12px; border-top: 1px solid #253248">Já nasce com MCP: consulte seu negócio pelo ChatGPT ou Claude</p>
+</div>
+</div>
+</div>
+<div class="nf-ring nf-ring2 nf-reveal" style="flex: 1 1 420px; min-width: 0">
+<div style="height: 100%; background: #111A2E; border-radius: 17px; padding: 32px; display: flex; flex-direction: column; gap: 18px">
+<svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#93C5FD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"></path></svg>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.02em">Organizar o app feito com IA</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #CBD5E1">Para quem criou um app no Lovable, Bolt, Cursor ou parecido e agora precisa que ele aguente uso de verdade.</p>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 15px; line-height: 1.5; color: #E2E8F0">
+<p class="nf-row" style="margin: 0; padding-top: 12px; border-top: 1px solid #253248">Revisão de segurança: chaves expostas, acesso aos dados, login</p>
+<p class="nf-row" style="margin: 0; padding-top: 12px; border-top: 1px solid #253248">Código versionado, banco estruturado e backups</p>
+<p class="nf-row" style="margin: 0; padding-top: 12px; border-top: 1px solid #253248">Deploy próprio, ambientes separados e monitoramento</p>
+<p class="nf-row" style="margin: 0; padding-top: 12px; border-top: 1px solid #253248">Documentação para seguir evoluindo, com ou sem a Niflow</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="nf-reveal nf-cta-row" style="display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; border-top: 1px solid #253248; padding-top: 32px">
+<p style="margin: 0; flex: 1 1 420px; font-size: 21px; font-weight: 700; line-height: 1.4; letter-spacing: -0.02em">Primeiro organiza, depois conecta. Tudo com o mesmo time.</p>
+<a class="nf-btn" href="#diagnostico" style="text-decoration: none; background: #FFFFFF; color: #0F172A; padding: 16px 24px; border-radius: 12px; font-weight: 600; font-size: 16px">Quero organizar meu negócio <span class="nf-arrow" aria-hidden="true">→</span></a>
+</div>
+</div>
+</section>
+
+<section id="modelo" style="background: #F6F8FB; border-bottom: 1px solid #E2E8F0">
+<div style="max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-direction: column; gap: 48px">
+<div class="nf-reveal" style="display: flex; flex-direction: column; gap: 16px; max-width: 740px">
+<p style="margin: 0; font-family: 'Geist Mono', monospace; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: #1E3A8A">07 · Modelo de contratação</p>
+<h2 style="margin: 0; font-weight: 800; font-size: clamp(30px, 3.8vw, 44px); line-height: 1.1; letter-spacing: -0.035em">Comece pequeno, prove valor, depois escale.</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #475569">Cada operação é diferente. Os valores do piloto e da mensalidade saem do diagnóstico, com escopo claro antes de qualquer compromisso.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: stretch">
+<div class="nf-card nf-reveal" style="flex: 1 1 300px; background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 22px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<h3 style="margin: 0; font-size: 20px; font-weight: 700">Diagnóstico</h3>
+<p style="margin: 0; font-size: 34px; font-weight: 800; letter-spacing: -0.04em">Gratuito</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Uma conversa para entender seus sistemas e dizer, com honestidade, se faz sentido conectar.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 300px; background: #0F172A; color: #FFFFFF; border: 1px solid #0F172A; border-radius: 22px; padding: 32px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 30px 60px -24px rgba(15,23,42,.45)">
+<span style="align-self: flex-start; background: #1D4ED8; color: #FFFFFF; font-family: 'Geist Mono', monospace; font-size: 12px; padding: 6px 12px; border-radius: 999px">Ponto de partida</span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700">Piloto de 30 dias</h3>
+<p style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.15">Proposta após o diagnóstico</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #CBD5E1">Um sistema conectado ou organizado, com um caso de uso real e seu time usando no dia a dia.</p>
+</div>
+<div class="nf-card nf-reveal" style="flex: 1 1 300px; background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 22px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<h3 style="margin: 0; font-size: 20px; font-weight: 700">Operação mensal</h3>
+<p style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.15">Mensalidade definida no diagnóstico</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #475569">Camada MCP hospedada, monitoramento, auditoria e manutenção quando suas APIs mudarem.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="faq" style="background: #FFFFFF">
+<div style="max-width: 880px; margin: 0 auto; padding: 104px 24px; display: flex; flex-direction: column; gap: 32px">
+<div class="nf-reveal" style="display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-family: 'Geist Mono', monospace; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: #1E3A8A">08 · Dúvidas frequentes</p>
+<h2 style="margin: 0; font-weight: 800; font-size: clamp(30px, 3.8vw, 44px); line-height: 1.1; letter-spacing: -0.035em">O que costumam perguntar.</h2>
+</div>
+<div class="nf-reveal" style="display: flex; flex-direction: column; gap: 10px">
+<details style="border: 1px solid #E2E8F0; border-radius: 14px; padding: 20px 22px">
+<summary style="cursor: pointer; font-size: 18px; font-weight: 600; letter-spacing: -0.01em">Preciso trocar meu sistema?</summary>
+<p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #475569">Não. A conexão é feita sobre as APIs que você já tem. Seu sistema continua sendo a fonte da verdade.</p>
+</details>
+<details style="border: 1px solid #E2E8F0; border-radius: 14px; padding: 20px 22px">
+<summary style="cursor: pointer; font-size: 18px; font-weight: 600; letter-spacing: -0.01em">O que é MCP?</summary>
+<p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #475569">Model Context Protocol, o padrão aberto que permite que assistentes e agentes de IA usem ferramentas e dados externos de forma estruturada.</p>
+</details>
+<details style="border: 1px solid #E2E8F0; border-radius: 14px; padding: 20px 22px">
+<summary style="cursor: pointer; font-size: 18px; font-weight: 600; letter-spacing: -0.01em">Funciona com quais IAs?</summary>
+<p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #475569">Com qualquer cliente compatível com MCP, incluindo ChatGPT, Claude e agentes construídos pelo seu time.</p>
+</details>
+<details style="border: 1px solid #E2E8F0; border-radius: 14px; padding: 20px 22px">
+<summary style="cursor: pointer; font-size: 18px; font-weight: 600; letter-spacing: -0.01em">O que é a Interface Niflow white label?</summary>
+<p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #475569">Uma interface de conversa onde seu time opera os sistemas conectados, com formulários e gráficos que aparecem quando a ação pede. Vai com o seu nome, suas cores e seu domínio, e pode ser oferecida também aos seus clientes.</p>
+</details>
+<details style="border: 1px solid #E2E8F0; border-radius: 14px; padding: 20px 22px">
+<summary style="cursor: pointer; font-size: 18px; font-weight: 600; letter-spacing: -0.01em">E a segurança dos meus dados?</summary>
+<p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #475569">A IA só enxerga as ferramentas que você liberar, as credenciais ficam centralizadas e cada chamada fica registrada para auditoria.</p>
+</details>
+<details style="border: 1px solid #E2E8F0; border-radius: 14px; padding: 20px 22px">
+<summary style="cursor: pointer; font-size: 18px; font-weight: 600; letter-spacing: -0.01em">Não tenho sistema nenhum. Serve para mim?</summary>
+<p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #475569">Serve. Começamos organizando seus dados e processos em um sistema enxuto, que já nasce pronto para conversar com a IA.</p>
+</details>
+<details style="border: 1px solid #E2E8F0; border-radius: 14px; padding: 20px 22px">
+<summary style="cursor: pointer; font-size: 18px; font-weight: 600; letter-spacing: -0.01em">Fiz meu app com vibe coding. Vocês assumem?</summary>
+<p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #475569">Assumimos a organização: revisamos segurança, estrutura e deploy, e deixamos documentado para você continuar evoluindo.</p>
+</details>
+<details style="border: 1px solid #E2E8F0; border-radius: 14px; padding: 20px 22px">
+<summary style="cursor: pointer; font-size: 18px; font-weight: 600; letter-spacing: -0.01em">Quanto tempo leva?</summary>
+<p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #475569">O piloto foi desenhado para ter um caso de uso rodando em até 30 dias. O prazo exato sai do diagnóstico.</p>
+</details>
+</div>
+</div>
+</section>
+
+<section id="diagnostico" style="position: relative; overflow: hidden; background: #0B1220; color: #FFFFFF">
+<div class="nf-blob" style="width: 600px; height: 600px; top: -260px; right: -160px; background: rgba(59,130,246,.3)"></div>
+<div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-start">
+<div class="nf-reveal" style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-weight: 800; font-size: clamp(32px, 4.2vw, 50px); line-height: 1.05; letter-spacing: -0.04em">Vamos ver se seus sistemas estão prontos para conversar com IA?</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #CBD5E1">Em uma conversa de 30 minutos, olhamos seus sistemas e saímos com um caminho claro: o que conectar ou organizar primeiro, o que evitar e quanto custa.</p>
+</div>
+<form class="nf-reveal" aria-label="Agendar diagnóstico" id="form-diagnostico" style="flex: 1 1 420px; min-width: 0; background: #FFFFFF; color: #0F172A; border-radius: 22px; padding: 32px; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 40px 80px -30px rgba(0,0,0,.6)">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<label for="f-nome" style="font-size: 14px; font-weight: 600">Nome</label>
+<input class="nf-input" id="f-nome" name="nome" type="text" autocomplete="name" style="font: inherit; font-size: 16px; padding: 13px 14px; border: 1px solid #94A3B8; border-radius: 10px">
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px">
+<div style="flex: 1 1 200px; display: flex; flex-direction: column; gap: 6px">
+<label for="f-empresa" style="font-size: 14px; font-weight: 600">Empresa</label>
+<input class="nf-input" id="f-empresa" name="empresa" type="text" autocomplete="organization" style="font: inherit; font-size: 16px; padding: 13px 14px; border: 1px solid #94A3B8; border-radius: 10px">
+</div>
+<div style="flex: 1 1 200px; display: flex; flex-direction: column; gap: 6px">
+<label for="f-email" style="font-size: 14px; font-weight: 600">E-mail corporativo</label>
+<input class="nf-input" id="f-email" name="email" type="email" autocomplete="email" style="font: inherit; font-size: 16px; padding: 13px 14px; border: 1px solid #94A3B8; border-radius: 10px">
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<label for="f-sistemas" style="font-size: 14px; font-weight: 600">Quais sistemas vocês usam?</label>
+<textarea class="nf-input" id="f-sistemas" name="sistemas" rows="3" placeholder="Ex.: ERP, CRM, app feito com IA ou ainda só planilhas" style="font: inherit; font-size: 16px; padding: 13px 14px; border: 1px solid #94A3B8; border-radius: 10px; resize: vertical"></textarea>
+</div>
+<a class="nf-btn" id="wa-btn" href="https://wa.me/5548991310699" target="_blank" rel="noopener" style="justify-content: center; text-decoration: none; font-size: 17px; font-weight: 700; background: #16A34A; color: #FFFFFF; border-radius: 12px; padding: 17px 24px; box-shadow: 0 14px 30px -14px #16A34A">
+<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"></path><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5"></path></svg>
+Enviar pelo WhatsApp <span class="nf-arrow" aria-hidden="true">→</span></a>
+<p style="margin: 0; font-size: 13px; line-height: 1.5; color: #475569">Abrimos o WhatsApp com sua mensagem pronta para a Niflow. Sem compromisso.</p>
+</form>
+</div>
+</section>
+
+</main>
+
+<footer style="background: #0B1220; border-top: 1px solid #1E293B; color: #CBD5E1">
+<div style="max-width: 1200px; margin: 0 auto; padding: 28px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 14px">
+<span>© 2026 Niflow</span>
+<span style="font-family: 'Geist Mono', monospace">niflow.com.br</span>
+</div>
+</footer>
+
+</div>
+
+<script>
+document.querySelectorAll('.nf-mob-panel a').forEach(function (a) {
+  a.addEventListener('click', function () { var d = a.closest('details'); if (d) d.removeAttribute('open'); });
+});
+(function () {
+  var btn = document.getElementById('wa-btn');
+  var form = document.getElementById('form-diagnostico');
+  if (!btn || !form) return;
+  function v(id) {
+    var el = document.getElementById(id);
+    var x = el && el.value ? el.value.trim() : '';
+    return x || 'não informado';
+  }
+  function link() {
+    var texto = [
+      'Olá, Niflow! Quero agendar um diagnóstico.', '',
+      'Nome: ' + v('f-nome'),
+      'Empresa: ' + v('f-empresa'),
+      'E-mail: ' + v('f-email'),
+      'Sistemas que usamos: ' + v('f-sistemas')
+    ].join('\n');
+    return 'https://wa.me/5548991310699?text=' + encodeURIComponent(texto);
+  }
+  function update() { btn.href = link(); }
+  form.addEventListener('input', update);
+  form.addEventListener('submit', function (e) { e.preventDefault(); window.open(link(), '_blank', 'noopener'); });
+  btn.addEventListener('click', update);
+  update();
+})();
+</script>
+</body>
+</html>
